@@ -24,6 +24,7 @@ func main() {
     router.POST("/add-inventory", internal.Add(db))
     router.DELETE("/delete-inventory/:id", internal.Deletee(db))
     router.PUT("/update-inventory/:id", internal.UpdateItem(db))
+    router.POST("/add-many",internal.Addmany(db))
 
     router.Run(":8080")
 }
