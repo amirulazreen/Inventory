@@ -20,11 +20,3 @@ type Supplier struct {
     ProductID uint
 }
 
-func createdb() {
-    db, err := gorm.Open(sqlite.Open("Inventory4.db"), &gorm.Config{})
-    if err != nil {
-        panic("failed to connect database")
-    }
-
-    db.AutoMigrate(&Product{}, &Supplier{})
-}
