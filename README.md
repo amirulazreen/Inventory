@@ -3,7 +3,8 @@
 <body>
   <h1>Inventory system</h1>
   <p>Inventory system created using GO and Vue and SQlite as a database</p>
-  <a href="https://inventoryvue.onrender.com/inventory">Inventory</a>
+  <a href="https://inventoryvue.onrender.com">Inventory</a>
+  <a href="https://github.com/amirulazreen/InventoryVue">Link to Vue repo</a>
 <div>
 <h3>Features</h3>
   <ul>
