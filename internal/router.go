@@ -180,7 +180,7 @@ func Random(i int) Product {
     return Product{
         Item:     "Hammer " + strconv.Itoa(i),
         Price:    float32(rand.Intn(10000)) / 100, 
-        Quantity: rand.Intn(100),       
+        Quantity: rand.Intn(100)+1,       
         Supplier: Supplier{
             Name:    "Hammer Shop " + strconv.Itoa(i),
             Address: "23 Taman Bakti, Taman Perkasa Sakti, 2300 Kuala Lumpur",
