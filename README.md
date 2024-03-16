@@ -9,6 +9,8 @@
   <ul>
       <li>Add, Edit & Delete</li>
       <li>Sort & Search</li>
+      <li>Pagination</li>
+      <li>Add 1000 random items with 1 button</li>
       <li>Check detail of item</li>
   </ul>
 </div>
