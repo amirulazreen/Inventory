@@ -2,7 +2,8 @@
 <html lang="en">
 <body>
   <h1>Inventory system</h1>
-  <a href="https://inventoryvue.onrender.com/inventory">Link to site</a>
+  <p>Inventory system created using GO and Vue</p>
+  <a href="https://inventoryvue.onrender.com/inventory">Inventory</a>
 <div>
 <h3>Features</h3>
   <ul>
