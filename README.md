@@ -2,7 +2,7 @@
 <html lang="en">
 <body>
   <h1>Inventory system</h1>
-  <p>Inventory system created using GO and Vue</p>
+  <p>Inventory system created using GO and Vue and SQlite as a database</p>
   <a href="https://inventoryvue.onrender.com/inventory">Inventory</a>
 <div>
 <h3>Features</h3>
@@ -24,6 +24,7 @@
             <ul>
               <li>Axios</li>
            </ul>
+        <li>Vue</li>
 </div>
 </body>
 </html>
