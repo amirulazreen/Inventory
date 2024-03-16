@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-    db, err := gorm.Open(sqlite.Open("Inventory2.db"), &gorm.Config{})
+    db, err := gorm.Open(sqlite.Open("Inventory4.db"), &gorm.Config{})
     if err != nil {
         panic("failed to connect database")
     }
