@@ -24,7 +24,7 @@
             <ul>
               <li>Axios</li>
            </ul>
-        <li>Vue</li>
+        <li>SQlite</li>
 </div>
 </body>
 </html>
