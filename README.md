@@ -12,17 +12,17 @@
   </ul>
 </div>
 <div>
-  <h3>Tech Stack used</h3>
+  <h3>Tech Stack</h3>
     <ol>
         <li>Go</li>
-            <ol>
+            <ul>
               <li>Gin</li>
               <li>GORM</li>
-            </ol>
+            </ul>
         <li>Vue</li>
-            <ol>
+            <ul>
               <li>Axios</li>
-           </ol>
+           </ul>
 </div>
 </body>
 </html>
