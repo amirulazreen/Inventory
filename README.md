@@ -7,8 +7,8 @@
 <div>
 <h3>Features</h3>
   <ul>
+      <li>Add, Edit & Delete</li>
       <li>Sort & Search</li>
-      <li>Item storage</li>
       <li>Check detail of item</li>
   </ul>
 </div>
