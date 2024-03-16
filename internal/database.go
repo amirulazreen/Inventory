@@ -1,7 +1,6 @@
 package internal
 
 import (
-	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"
 )
 
