@@ -50,8 +50,8 @@ func Add(db *gorm.DB) gin.HandlerFunc {
             return
         }
 
-        if len(newitem.Item) > 50 {
-            c.JSON(http.StatusBadRequest, gin.H{"error": "Item name should have at most 50 characters"})
+        if len(newitem.Item) > 30 {
+            c.JSON(http.StatusBadRequest, gin.H{"error": "Item name should have at most 30 characters"})
             return
         }
         for _, existingItem := range allItems {
@@ -130,8 +130,8 @@ func UpdateItem(db *gorm.DB) gin.HandlerFunc {
             return
         }
 
-        if len(item.Item) > 50 {
-            c.JSON(http.StatusBadRequest, gin.H{"error": "Item name should have at most 50 characters"})
+        if len(item.Item) > 30 {
+            c.JSON(http.StatusBadRequest, gin.H{"error": "Item name should have at most 30 characters"})
             return
         }
         for _, existingItem := range allItems {
@@ -178,11 +178,11 @@ func Addmany(db *gorm.DB) gin.HandlerFunc {
 
 func Random(i int) Product {
     return Product{
-        Item:     "Item" + strconv.Itoa(i),
+        Item:     "Hammer " + strconv.Itoa(i),
         Price:    float32(rand.Intn(10000)) / 100, 
         Quantity: rand.Intn(100),       
         Supplier: Supplier{
-            Name:    "Supplier" + strconv.Itoa(i),
+            Name:    "Hammer Shop " + strconv.Itoa(i),
             Address: "23 Taman Bakti, Taman Perkasa Sakti, 2300 Kuala Lumpur",
             Tel:     "020 020 2020",
         },
