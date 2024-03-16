@@ -166,7 +166,7 @@ func Addmany(db *gorm.DB) gin.HandlerFunc {
 
             if err := db.Create(&newItem).Error; err != nil {
                 c.JSON(http.StatusBadGateway, gin.H{
-                    "error": "Failed to add item",
+                    "error": "Item name must be unique",
                 })
                 return
             }
