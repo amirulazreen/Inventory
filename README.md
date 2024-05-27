@@ -4,6 +4,7 @@
   <h1>Inventory system</h1>
   <p>Inventory system created using GO and Vue and SQlite as a database</p>
   <br>
+  <a href="https://inventoryvue.onrender.com/inventory">Link to website</a>
   <a href="https://github.com/amirulazreen/InventoryVue">Vue repo</a>
 <div>
 <h3>Features</h3>
